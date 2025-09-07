@@ -28,6 +28,7 @@ void swapp(wow& obj1, wow& obj2){
     obj2.a = temp;
 }
 int wow :: count = 0;
+
 int main(){
 wow obj1, obj2;
 obj1;

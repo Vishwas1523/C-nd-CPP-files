@@ -4,7 +4,7 @@ struct hotel{
     int number_of_rooms, rating;
 };
 int main(){
-    struct hotel arr[3], temp;
+         struct hotel arr[3], temp;
     printf("Enter the details of the hotels:\n");
     for (int i = 0; i < 3; i++){
         printf("Enter the name of hotel %d: ", i + 1);
