@@ -1,7 +1,7 @@
 #include <print>
-            using namespace std;
+using namespace std;
 
-int main(){
-println("Hello world!");
-return 0;
+int main() {
+  println("Hello world!");
+  return 0;
 }
