@@ -23,6 +23,11 @@ void printDLL(node *head) {
     }
     cout << "NULL";
 }
+node* insertHead(node * head, int val){
+  node *temp = new node(val, nullptr, head);
+  head->prev = temp;
+  return temp;
+}
 int main() {
   int arr[] = {15, 45, 78, 34, 5, 889};
   node *head = new node(arr[0]);
@@ -33,5 +38,9 @@ int main() {
     temp = temp->next;
   }
   printDLL(head);
+ printDLL(head);
+  head = insertHead(head, 44);
+  printDLL(head);
   return 0;
+
 }
