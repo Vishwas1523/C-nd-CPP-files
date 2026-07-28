@@ -45,6 +45,7 @@ node *insertNode(node *head, int val, int pos) {
     return head;
   }
 }
+
 int main() {
   int num = 5, sum;
   node *head = new node(10);
@@ -59,4 +60,5 @@ int main() {
   //insertNode(head, 55, 3);
   printll(head);
   return 0;
+
 }
