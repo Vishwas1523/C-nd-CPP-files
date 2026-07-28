@@ -21,7 +21,7 @@ void printDLL(node *head) {
       cout << temp->data << " -> ";
       temp = temp->next;
     }
-    cout << "NULL"<<endl;
+    cout << "NULL";
 }
 node* insertHead(node * head, int val){
   node *temp = new node(val, nullptr, head);
@@ -38,7 +38,9 @@ int main() {
     temp = temp->next;
   }
   printDLL(head);
+ printDLL(head);
   head = insertHead(head, 44);
   printDLL(head);
   return 0;
+
 }

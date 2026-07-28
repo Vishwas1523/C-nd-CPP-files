@@ -82,4 +82,5 @@ int check_winner() {
   }
   if (moves == 9) return 2;
   return 0;
+>>>>>>> 9fc1f207b10d5201f69e41278f3020cca011d956
 }
